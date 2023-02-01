@@ -1,0 +1,39 @@
+*{
+    font-style: normal;
+}
+header {
+    background-color: #73d573;
+}
+header img {
+    height: 35px;
+    width: 35px;
+    float: left;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+footer {
+background-color: #73d573;
+display: flex;
+position: fixed;
+bottom: 0;
+text-align: center;
+width: 100%;
+}
+footer section img {
+    height: 35px;
+    width: 35px;
+    float: left;
+    padding: 20px 10px;
+}
+footer section p {
+    padding-top: 15px;
+    position: relative;
+    text-align: center;
+}

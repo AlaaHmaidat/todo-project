@@ -1,0 +1,12 @@
+img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+form {
+    padding: 20px;
+}
+label {
+    text-align: center;
+    padding: inherit;
+}

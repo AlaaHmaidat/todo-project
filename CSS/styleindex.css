@@ -1,0 +1,12 @@
+
+table {
+    border: solid 1px;
+    text-align: center;
+    width: 50%;
+}
+th, tr {
+    border: 1px solid black;
+}
+table {
+    margin: 20px 100px;
+}

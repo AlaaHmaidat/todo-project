@@ -1,11 +1,25 @@
-img {
+main img {
     height: 100px;
     width: 100px;
-    float: left;
+    display: flex;
+    border-radius: 50px;
+    margin: 0px 0px;
 }
+main{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: row;
+}
+
 form {
-    padding: 20px;
+
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
 }
+
 label {
     text-align: center;
     padding: inherit;

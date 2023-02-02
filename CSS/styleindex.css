@@ -1,12 +1,28 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
 
-table {
-    border: solid 1px;
+main table {
+
+    border: 1px solid black;
     text-align: center;
     width: 50%;
+    border-collapse: collapse;
+    text-indent: initial;
+    border-spacing: 2px;
 }
-th, tr {
+
+th,
+td {
     border: 1px solid black;
 }
-table {
-    margin: 20px 100px;
+main table td.COLO{
+    background-color:green;
+}
+main table td.COLO1{
+    background-color: red;
 }

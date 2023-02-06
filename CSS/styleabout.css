@@ -10,7 +10,7 @@ main{
     margin-top: 100px;
     justify-content: center;
     flex-direction: row;
-    height: 100vh;
+    height: auto;
 }
 
 form {

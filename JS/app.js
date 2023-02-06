@@ -17,14 +17,14 @@ function genderMF(){
     
     let skip;
     if (gender ==='female'){
-        skip = prompt("Do you want to skip the welcome message?");
-        if(skip==='no'){
+        skip = confirm("Do you want to skip the welcome message?");
+        if(skip === false){
             alert("hello Ms " + name);
         }
         
     }else if (gender === 'male' ) {
-        skip = prompt("Do you want to skip the welcome message?");
-        if(skip==='no'){
+        confirm("Do you want to skip the welcome message?");
+        if(skip===false){
             alert("hello Mr " + name);
         }
     }else {

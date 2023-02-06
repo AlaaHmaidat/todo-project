@@ -14,7 +14,8 @@ header {
     background-color: var(--headerFooter);
     display: flex;
     justify-content: space-between;
-
+    position: fixed;
+    width: 100%;
 }
 
 header img {
@@ -42,7 +43,6 @@ body {
 footer {
     background-color: var(--headerFooter);
     display: flex;
-    position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
